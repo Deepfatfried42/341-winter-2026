@@ -1,0 +1,23 @@
+{
+    "contact1" : {
+        "firstName" : "Johnathon",
+        "lastName" : "Staples",
+        "email" : "johnathon.staples@example.com",
+        "favoriteColor" : "Purple",
+        "birthday" : "09/30/83"
+    },
+    "contact2" : {
+        "firstName" : "Angela",
+        "lastName" : "Staples",
+        "email" : "angela.staples@example.com",
+        "favoriteColor" : "Purple",
+        "birthday" : "05/25/92"
+    },
+    "contact3" : {
+        "firstName" : "Rebekah",
+        "lastName" : "Staples",
+        "email" : "rebekah.staples@example.com",
+        "favoriteColor" : "Purple",
+        "birthday" : "N/A"
+    }
+}

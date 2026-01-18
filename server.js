@@ -3,7 +3,7 @@ const connectDB = require('./DB/connection');
 const app = express();
 
 connectDB();
-const port = 3000;
+const port = 8080;
 
 app.use(express.json({extended:false}));
 app.use('/api/userModel', require('./Api/user'));

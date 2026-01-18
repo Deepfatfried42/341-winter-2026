@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Deepfatfried42/341-winter-2026#readme",
   "dependencies": {
+    "body-parser": "^2.2.2",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "mongodb": "^7.0.0",

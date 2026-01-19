@@ -1,6 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const User = require('../DB/user');
+const User = require('../db/user');
 const route = express.Router();
 
 route.post('/', async(req,res)=>{

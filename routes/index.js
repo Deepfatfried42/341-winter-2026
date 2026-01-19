@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
 
-router.use('/contacts.json', require('./contacts.json'))
+router.use('/contacts.js', require('./contacts.js'))
 
 module.exports = router;

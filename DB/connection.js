@@ -1,3 +1,5 @@
+const dotenv = require('dotenv');
+dotenv.config();
 const mongoose = require('mongoose');
 const mongodb_key = require('dotenv').config();
 

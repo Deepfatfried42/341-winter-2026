@@ -1,10 +1,10 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const connectDB = require('./db/connection');
+//const connectDB = require('./db/connection');
 const mongodb = require('./db/connect');
 const app = express();
 
-connectDB();
+//connectDB();
 const port = 8080;
 
 app.use(express.json({extended:false}));

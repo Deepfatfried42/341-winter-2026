@@ -1,5 +1,5 @@
 {
-  "name": "341-winter-2026",
+  "name": "backend",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -8,26 +8,16 @@
     "start": "node server.js",
     "dev_start": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Deepfatfried42/341-winter-2026.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/Deepfatfried42/341-winter-2026/issues"
-  },
-  "homepage": "https://github.com/Deepfatfried42/341-winter-2026#readme",
   "dependencies": {
     "body-parser": "^2.2.2",
+    "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
-    "mongodb": "^7.0.0",
-    "mongoose": "^9.1.3",
-    "router": "^2.2.0",
-    "update": "^0.7.4"
+    "mongodb": "^7.0.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.11"

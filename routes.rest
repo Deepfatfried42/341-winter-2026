@@ -1,0 +1,9 @@
+// LOCALHOST 
+GET http://localhost:8080/contacts 
+### Single contact by ID for Johnathon
+GET http://localhost:8080/contacts/696c7a1d54b75272854f35bb
+### Single contact by ID for Angela
+GET http://localhost:8080/contacts/696c7a3a54b75272854f35bd
+### Single contact by ID for Rebekah
+GET http://localhost:8080/contacts/696c7a5054b75272854f35bf
+

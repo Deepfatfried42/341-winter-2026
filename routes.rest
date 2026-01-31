@@ -24,7 +24,7 @@ Content-Type: application/json
 ### PUT contact 
 
 ### Create Contact
-PUT http://localhost:8080/contacts/697e6d63db69417a6922a135
+PUT http://localhost:8080/contacts/697e7a80067cc3fa26888f33
 Content-Type: application/json
 
 {
@@ -32,8 +32,8 @@ Content-Type: application/json
   "lastName": "Staples",
   "email": "john@example.com",
   "favoriteColor": "purple",
-  "birthday": "2000-01-01"
+  "birthday": "1900/12/12"
 }
 
 ### DELETE contact 
-DELETE http://localhost:8080/contacts/697e6d63db69417a6922a135 HTTP/1.1
+DELETE http://localhost:8080/contacts/697e7a80067cc3fa26888f33 HTTP/1.1
